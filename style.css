@@ -1,0 +1,15 @@
+:root{--bg:#0f1115;--card:#111216;--muted:#bfc4cc;--accent:#8ad0ff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:linear-gradient(180deg,var(--bg),#07070a);color:#fff;line-height:1.4}
+.site-header{text-align:center;padding:48px 16px}
+.site-header h1{font-size:2.2rem;margin:0 0 8px}
+.tagline{color:var(--muted);margin:0}
+.container{max-width:900px;margin:24px auto;padding:0 16px}
+.songs{display:grid;gap:18px}
+.track{background:var(--card);padding:14px;border-radius:12px;display:flex;gap:14px;align-items:center}
+.cover{width:100px;height:100px;object-fit:cover;border-radius:8px}
+.meta h2{margin:0 0 6px;font-size:1.1rem}
+.meta .desc{margin:0 0 8px;color:var(--muted)}
+audio{width:100%}
+.about{margin-top:22px;padding:14px;background:rgba(255,255,255,0.02);border-radius:10px;color:var(--muted)}
+.site-footer{text-align:center;padding:18px 8px;color:var(--muted);font-size:.9rem}
+a{color:var(--accent);text-decoration:none}
